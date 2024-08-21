@@ -14,7 +14,7 @@ public class Condicional {
        if (incluidoNoPlano == true || tipoPlano.equals("plus")) {
            System.out.println("Filme liberado");
        } else {
-           System.out.println("Deve pagar a locação");
+           System.out.println("Titulo não incluso no plano. Deve pagar a locação");
        }
     }
 }
